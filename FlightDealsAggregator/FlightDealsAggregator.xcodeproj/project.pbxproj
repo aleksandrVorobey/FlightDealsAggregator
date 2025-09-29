@@ -6,17 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE7F14472E8A600300B02E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14442E8A600300B02E28 /* ContentView.swift */; };
+		AE7F14482E8A600300B02E28 /* FlightDealsAggregatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14452E8A600300B02E28 /* FlightDealsAggregatorApp.swift */; };
+		AE7F14492E8A600300B02E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7F14432E8A600300B02E28 /* Assets.xcassets */; };
+		AE7F144C2E8A663B00B02E28 /* TravelpayoutsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F144A2E8A663B00B02E28 /* TravelpayoutsClient.swift */; };
+		AE7F144F2E8A664A00B02E28 /* FlightModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F144D2E8A664A00B02E28 /* FlightModels.swift */; };
+		AE7F14522E8A665700B02E28 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14502E8A665700B02E28 /* FlightsViewModel.swift */; };
+		AE7F14542E8A666100B02E28 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14532E8A666100B02E28 /* Config.swift */; };
+		AE7F14572E8A673D00B02E28 /* FlightsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14552E8A673D00B02E28 /* FlightsListView.swift */; };
+		AE7F145A2E8A6A0900B02E28 /* FlightsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14582E8A6A0900B02E28 /* FlightsRepository.swift */; };
+		AE7F145C2E8A6A4100B02E28 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F145B2E8A6A4100B02E28 /* FlightDetailsView.swift */; };
+		AE7F14612E8A789000B02E28 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14602E8A789000B02E28 /* Theme.swift */; };
+		AE7F14652E8A79A400B02E28 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F14642E8A79A400B02E28 /* CameraView.swift */; };
+		AED853272E8A835500C39ECD /* PhotoSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED853262E8A835500C39ECD /* PhotoSaver.swift */; };
+		AED853292E8A9E6800C39ECD /* FlightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED853282E8A9E6800C39ECD /* FlightRow.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AE7F14352E8A5F6800B02E28 /* FlightDealsAggregator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightDealsAggregator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7F14432E8A600300B02E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7F14442E8A600300B02E28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE7F14452E8A600300B02E28 /* FlightDealsAggregatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDealsAggregatorApp.swift; sourceTree = "<group>"; };
+		AE7F144A2E8A663B00B02E28 /* TravelpayoutsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelpayoutsClient.swift; sourceTree = "<group>"; };
+		AE7F144D2E8A664A00B02E28 /* FlightModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModels.swift; sourceTree = "<group>"; };
+		AE7F14502E8A665700B02E28 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
+		AE7F14532E8A666100B02E28 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AE7F14552E8A673D00B02E28 /* FlightsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsListView.swift; sourceTree = "<group>"; };
+		AE7F14582E8A6A0900B02E28 /* FlightsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsRepository.swift; sourceTree = "<group>"; };
+		AE7F145B2E8A6A4100B02E28 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+		AE7F14602E8A789000B02E28 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AE7F14642E8A79A400B02E28 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AED853262E8A835500C39ECD /* PhotoSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaver.swift; sourceTree = "<group>"; };
+		AED853282E8A9E6800C39ECD /* FlightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AE7F14372E8A5F6800B02E28 /* FlightDealsAggregator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FlightDealsAggregator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AE7F14322E8A5F6800B02E28 /* Frameworks */ = {
@@ -32,7 +55,7 @@
 		AE7F142C2E8A5F6800B02E28 = {
 			isa = PBXGroup;
 			children = (
-				AE7F14372E8A5F6800B02E28 /* FlightDealsAggregator */,
+				AE7F14462E8A600300B02E28 /* FlightDealsAggregator */,
 				AE7F14362E8A5F6800B02E28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,75 @@
 				AE7F14352E8A5F6800B02E28 /* FlightDealsAggregator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7F14462E8A600300B02E28 /* FlightDealsAggregator */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F145E2E8A725F00B02E28 /* Utilities */,
+				AE7F14592E8A6A0900B02E28 /* Repositories */,
+				AE7F14562E8A673D00B02E28 /* Views */,
+				AE7F14532E8A666100B02E28 /* Config.swift */,
+				AE7F14512E8A665700B02E28 /* ViewModels */,
+				AE7F144E2E8A664A00B02E28 /* Models */,
+				AE7F144B2E8A663B00B02E28 /* API */,
+				AE7F14432E8A600300B02E28 /* Assets.xcassets */,
+				AE7F14442E8A600300B02E28 /* ContentView.swift */,
+				AE7F14452E8A600300B02E28 /* FlightDealsAggregatorApp.swift */,
+			);
+			path = FlightDealsAggregator;
+			sourceTree = "<group>";
+		};
+		AE7F144B2E8A663B00B02E28 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F144A2E8A663B00B02E28 /* TravelpayoutsClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AE7F144E2E8A664A00B02E28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F144D2E8A664A00B02E28 /* FlightModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE7F14512E8A665700B02E28 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F14502E8A665700B02E28 /* FlightsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AE7F14562E8A673D00B02E28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F14642E8A79A400B02E28 /* CameraView.swift */,
+				AE7F145B2E8A6A4100B02E28 /* FlightDetailsView.swift */,
+				AE7F14552E8A673D00B02E28 /* FlightsListView.swift */,
+				AED853282E8A9E6800C39ECD /* FlightRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE7F14592E8A6A0900B02E28 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F14582E8A6A0900B02E28 /* FlightsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AE7F145E2E8A725F00B02E28 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AED853262E8A835500C39ECD /* PhotoSaver.swift */,
+				AE7F14602E8A789000B02E28 /* Theme.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +151,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AE7F14372E8A5F6800B02E28 /* FlightDealsAggregator */,
 			);
 			name = FlightDealsAggregator;
 			packageProductDependencies = (
@@ -109,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7F14492E8A600300B02E28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7F144C2E8A663B00B02E28 /* TravelpayoutsClient.swift in Sources */,
+				AE7F14472E8A600300B02E28 /* ContentView.swift in Sources */,
+				AE7F14652E8A79A400B02E28 /* CameraView.swift in Sources */,
+				AE7F14482E8A600300B02E28 /* FlightDealsAggregatorApp.swift in Sources */,
+				AE7F145A2E8A6A0900B02E28 /* FlightsRepository.swift in Sources */,
+				AE7F14612E8A789000B02E28 /* Theme.swift in Sources */,
+				AE7F14572E8A673D00B02E28 /* FlightsListView.swift in Sources */,
+				AE7F14522E8A665700B02E28 /* FlightsViewModel.swift in Sources */,
+				AED853272E8A835500C39ECD /* PhotoSaver.swift in Sources */,
+				AE7F144F2E8A664A00B02E28 /* FlightModels.swift in Sources */,
+				AED853292E8A9E6800C39ECD /* FlightRow.swift in Sources */,
+				AE7F145C2E8A6A4100B02E28 /* FlightDetailsView.swift in Sources */,
+				AE7F14542E8A666100B02E28 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +359,9 @@
 				DEVELOPMENT_TEAM = 9Y94J8V38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan boarding passes and save photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow adding captured images to your Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to save captured images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +390,9 @@
 				DEVELOPMENT_TEAM = 9Y94J8V38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan boarding passes and save photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow adding captured images to your Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to save captured images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
